@@ -12,7 +12,7 @@ const rows = 6;
 const columns = 5;
 let currentRow = 0;
 let currentColumn = 0;
-let letreco = 'MANTO';
+let letreco = 'RADIO';
 let letrecoMap = {}
 for (let index = 0; index < letreco.length; index++){
   letrecoMap[letreco[index]] = index//adiciona c a m p o em letrecoMap
@@ -61,7 +61,7 @@ const checkGuess = () => {
  
 
   if(guess === letreco) {//se a palavra q eu digitar for = a da variavel letreco
-    window.alert("acertou miseravi!")
+    window.alert("NICEEEEEE!")
     return
 } {
     if(currentRow === rows -1) {
