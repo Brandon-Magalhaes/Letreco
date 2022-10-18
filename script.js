@@ -65,7 +65,7 @@ const checkGuess = () => {
     return
 } {
     if(currentRow === rows -1) {
-        window.alert("Errou!")
+        window.alert("You Lose!")
     } else {
         moveToNextRow()
     }
